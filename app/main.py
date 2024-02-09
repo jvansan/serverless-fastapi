@@ -12,6 +12,7 @@ router = APIRouter()
 
 
 @router.get("/")
+@router.get("")
 async def get_users():
     return {"message": "Users!"}
 
